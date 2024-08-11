@@ -1,0 +1,327 @@
+0:100  0:100  MemLog inited, TSC freq: 2296018930
+0:100  0:000  CPU was calibrated with RTC
+0:100  0:000  CloverX64 : Image base = 0xC53A2000
+0:100  0:000  Clover ImageHandle = c6ca0f98
+0:100  0:000  SelfDirPath = \EFI\CLOVER
+0:100  0:000  === [ Starting Clover ] =========================
+0:100  0:000  Now is 11.08.2024,  15:29:59 (GMT)
+0:100  0:000  Starting Clover revision: 5156 (master, commit 187400d0a) on American Megatrends EFI
+0:100  0:000  Build id: 20231111155702-187400d-5156-dirty
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -D LESS_DEBUG -t GCC131 | --cmd-len=50000 -D NO_GRUB_DRIVERS_EMBEDDED -D LESS_DEBUG --conf=/Users/sergey/src/CloverBootloader/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC131 -n 5 | OS: 13.6.1]
+0:100  0:000  --> : Firmware has 4011905 free pages (808065 in lower 4 GB)
+0:100  0:000  === [ Get Smbios ] ==============================
+0:100  0:000  Type 16 Index = 0
+0:100  0:000  Total Memory Slots Count = 2
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  Table has error information, checking
+0:100  0:000  Found memory information in table 18/1, type=0x3, operation=0x2 syndrome=0x0
+0:100  0:000  ...memory OK
+0:100  0:000  SmbiosTable.Type17->SlotIndex = 0
+0:100  0:000  SmbiosTable.Type17->ModuleSize = 8192MB
+0:100  0:000  SmbiosTable.Type17->Type = 0
+0:100  0:000  SmbiosTable.Type17->Frequency = 3200MHz
+0:100  0:000  SmbiosTable.Type17->Bank/Device = P0 CHANNEL A DIMM 0
+0:100  0:000  SmbiosTable.Type17->Vendor = Samsung
+0:100  0:000  SmbiosTable.Type17->SerialNo = 00000000
+0:100  0:000  SmbiosTable.Type17->PartNo = M471A1G44BB0-CWE
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  Table has error information, checking
+0:100  0:000  Found memory information in table 18/2, type=0x3, operation=0x2 syndrome=0x0
+0:100  0:000  ...memory OK
+0:100  0:000  SmbiosTable.Type17->SlotIndex = 1
+0:100  0:000  SmbiosTable.Type17->ModuleSize = 8192MB
+0:100  0:000  SmbiosTable.Type17->Type = 0
+0:100  0:000  SmbiosTable.Type17->Frequency = 3200MHz
+0:100  0:000  SmbiosTable.Type17->Bank/Device = P0 CHANNEL B DIMM 0
+0:100  0:000  SmbiosTable.Type17->Vendor = Samsung
+0:100  0:000  SmbiosTable.Type17->SerialNo = 00000000
+0:100  0:000  SmbiosTable.Type17->PartNo = M471A1G44BB0-CWE
+0:100  0:000  Boot status=0
+0:100  0:000  Running on: 'Modern 14 C5M' with board 'MS-14JK'
+0:100  0:000  === [ GetCPUProperties ] ========================
+0:100  0:000  CPU Vendor = 68747541 Model=A50F00
+0:100  0:000   The CPU supported SSE4.1
+0:100  0:000   The CPU supported RDRAND
+0:100  0:000  BrandString = AMD Ryzen 5 5625U with Radeon Graphics
+0:100  0:000  	Looking to disable C1E if is already enabled by the BIOS:
+0:100  0:000  CurrentSpeed: 2300
+0:100  0:000  maxratio 44
+0:100  0:000  cpudid_zen 72
+0:100  0:000  FSBFrequency = 53 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:100  0:000  MaxDiv/MinDiv: 22.0/16
+0:100  0:000  Turbo: 0/0/0/0
+0:100  0:000  Features: 0x76D8320B178BFBFF
+0:100  0:000  Threads: 12
+0:100  0:000  Cores: 6
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 2299 MHz
+0:100  0:000  TSC: 2300 MHz
+0:100  0:000  PIS: 100 MHz
+0:100  0:000  ExternalClock: 25 MHz
+0:100  0:000  === [ GetDevices ] ==============================
+0:100  0:000  GOP found at: PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x0)/AcpiAdr(0x80010400)
+0:100  0:000  PCI (00|00:00.00) : 1022 1630 class=060000
+0:100  0:000  PCI (00|00:01.00) : 1022 1632 class=060000
+0:100  0:000  PCI (00|00:02.00) : 1022 1632 class=060000
+0:100  0:000  PCI (00|00:02.02) : 1022 1634 class=060400
+0:100  0:000  PCI (00|01:00.00) : 14C3 0608 class=028000
+0:100  0:000   - WIFI: Vendor=  0x14C3
+0:100  0:000  PCI (00|00:02.04) : 1022 1634 class=060400
+0:100  0:000  PCI (00|02:00.00) : 1344 5413 class=010802
+0:100  0:000  PCI (00|00:08.00) : 1022 1632 class=060000
+0:100  0:000  PCI (00|00:08.01) : 1022 1635 class=060400
+0:100  0:000  PCI (00|03:00.00) : 1002 15E7 class=030000
+0:100  0:000   - GFX: Model=AMD Unknown (ATI/AMD)
+0:100  0:000   - GOP: Provided by device
+0:100  0:000  PCI (00|03:00.01) : 1002 1637 class=040300
+0:100  0:000   - HDMI Audio: 
+0:100  0:000  PCI (00|03:00.02) : 1022 15DF class=108000
+0:100  0:000  PCI (00|03:00.03) : 1022 1639 class=0C0330
+0:100  0:000  PCI (00|03:00.04) : 1022 1639 class=0C0330
+0:100  0:000  PCI (00|03:00.05) : 1022 15E2 class=048000
+0:100  0:000  PCI (00|03:00.06) : 1022 15E3 class=040300
+0:100  0:000   - HDMI Audio: 
+0:100  0:000  PCI (00|00:14.00) : 1022 790B class=0C0500
+0:101  0:000  PCI (00|00:14.03) : 1022 790E class=060100
+0:101  0:000  PCI (00|00:18.00) : 1022 166A class=060000
+0:101  0:000  PCI (00|00:18.01) : 1022 166B class=060000
+0:101  0:000  PCI (00|00:18.02) : 1022 166C class=060000
+0:101  0:000  PCI (00|00:18.03) : 1022 166D class=060000
+0:101  0:000  PCI (00|00:18.04) : 1022 166E class=060000
+0:101  0:000  PCI (00|00:18.05) : 1022 166F class=060000
+0:101  0:000  PCI (00|00:18.06) : 1022 1670 class=060000
+0:101  0:000  PCI (00|00:18.07) : 1022 1671 class=060000
+0:101  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\MS-14JK\UEFI'. Dir doesn't exist.
+0:101  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\Modern 14 C5M'. Dir doesn't exist.
+0:101  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\Modern 14 C5M-2299'. Dir doesn't exist.
+0:101  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\MS-14JK'. Dir doesn't exist.
+0:101  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\MS-14JK-2299'. Dir doesn't exist.
+0:101  0:000  === [ GetUserSettings ] =========================
+0:101  0:000  GetDefaultModel()=MacPro6,1
+0:101  0:000  === [ LoadUserSettings ] ========================
+0:102  0:001  Using config.plist at path: \EFI\CLOVER
+0:103  0:000  === [ LoadUserSettings ] ========================
+0:103  0:000  Cannot find smbios.plist at path '\EFI\CLOVER' : Not Found
+0:103  0:000  '\EFI\CLOVER\smbios.plist' not loaded. Efi error Not Found
+0:103  0:000  create SMBIOS list, found 26 dicts
+0:103  0:000  ... ACPI
+0:103  0:000  ... Boot
+0:103  0:000  ... BootGraphics
+0:103  0:000  ... Devices
+0:103  0:000  ... GUI
+0:103  0:000  ... Graphics
+0:103  0:000  ... KernelAndKextPatches
+0:103  0:000  ... SMBIOS
+0:103  0:000  ... SystemParameters
+0:103  0:000  ... RtVariables
+0:103  0:000  ... Quirks
+0:103  0:000  get model from config.plist
+0:103  0:000  BiosVersion: IM191.88Z.F000.B00.2302212211
+0:103  0:000  BiosReleaseDate: 02/21/2023
+0:103  0:000  EfiVersion: 1968.100.16.0.1
+0:103  0:000  Calibrated TSC Frequency = 2296018930 = 2296MHz
+0:103  0:000  === [ GetListOfThemes ] =========================
+0:103  0:000  - [00]: random
+0:103  0:000  - [00]: embedded
+0:104  0:001  === [ Found config plists ] =====================
+0:104  0:000  - config-sample.plist
+0:104  0:000  - config.plist
+0:104  0:000  === [ LoadDrivers ] =============================
+0:106  0:001  Loading VBoxHfs.efi status=Success
+0:114  0:007   - driver needs connecting
+0:114  0:000  Loading ApfsDriverLoader.efi status=Success
+0:119  0:005   - driver needs connecting
+0:119  0:000  2 drivers needs connecting ...
+0:119  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:119  0:000  HFS+ driver loaded
+0:119  0:000  APFS driver loaded
+0:119  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+0:202  0:082  === [ InitScreen ] ==============================
+0:202  0:000  Console modes reported: 4, available modes:
+0:202  0:000   - [01]: 80x25
+0:202  0:000   - [02]: 80x25
+0:202  0:000   - [03]: 100x31
+0:202  0:000   - [04]: 128x40 (current mode)
+0:202  0:000  SetMaxResolution: found best mode 0: 1920x1080
+0:202  0:000   - already set
+0:203  0:001  === [ ScanSPD ] =================================
+0:203  0:000  === [ GetAcpiTablesList ] =======================
+0:203  0:000  Get Acpi Tables List from RSDT:
+0:203  0:000   - [00]: FACP  MEGABOOK len=276
+0:203  0:000   - [01]: SSDT  AmdTable len=29360
+0:203  0:000   - [02]: SSDT  AMD AOD len=14881
+0:203  0:000   - [03]: FIDT  MEGABOOK len=156
+0:203  0:000   - [04]: ECDT  MEGABOOK len=193
+0:203  0:000   - [05]: MCFG  MEGABOOK len=60
+0:203  0:000   - [06]: HPET  MEGABOOK len=56
+0:203  0:000   - [07]: FPDT  MEGABOOK len=68
+0:203  0:000   - [08]: VFCT  MEGABOOK len=55428
+0:203  0:000   - [09]: BGRT  MEGABOOK len=56
+0:203  0:000   - [10]: TPM2  MEGABOOK len=76
+0:203  0:000   - [11]: SSDT  AmdTable len=16008
+0:203  0:000   - [12]: CRAT  AmdTable len=2920
+0:203  0:000   - [13]: CDIT  AmdTable len=41
+0:203  0:000   - [14]: SSDT  AmdTable len=329
+0:203  0:000   - [15]: SSDT  AmdTable len=2713
+0:203  0:000   - [16]: SSDT  AmdTable len=5439
+0:203  0:000   - [17]: SSDT  AmdTable len=1615
+0:203  0:000   - [18]: SSDT  AmdTable len=14446
+0:203  0:000   - [19]: WSMT  MEGABOOK len=40
+0:203  0:000   - [20]: APIC  MEGABOOK len=222
+0:203  0:000   - [21]: SSDT  AmdTable len=141
+0:203  0:000   - [22]: SSDT  AmdTable len=2288
+0:203  0:000   - [23]: SSDT  AmdTable len=87
+0:203  0:000   - [24]: SSDT  AmdTable len=439
+0:203  0:000   - [25]: SSDT  AmdTable len=1768
+0:203  0:000   - [26]: SSDT  AmdTable len=2358
+0:204  0:000   - [00]: Drop table : DMAR,                0 :  no
+0:204  0:000  Custom boot CUSTOM_BOOT_USER_DISABLED (0x0)
+0:204  0:000  Default theme: random
+0:204  0:000  Set FakeCPUID: 0x0
+0:204  0:000  === [ Found DSDT tables ] =======================
+0:204  0:000  === [ InitKextList ] ============================
+0:206  0:001  === [ ScanVolumes ] =============================
+0:206  0:000  Found 8 volumes with blockIO
+0:206  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x8,0x1)\Pci(0x0,0x4)\USB(0x0,0x0)
+0:206  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x8,0x1)\Pci(0x0,0x4)\USB(0x0,0x0)\HD(1,GPT,27C0F147-EF1D-458B-9CEE-C3169E9BDF13,0x800,0x64000)
+0:207  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:207  0:000            label : CLOVER
+0:207  0:000          This is SelfVolume !!
+0:207  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x8,0x1)\Pci(0x0,0x4)\USB(0x0,0x0)\HD(2,GPT,9A7CC0A5-660B-CAE9-3B96-656AC0C9EAD5,0x64800,0x1BDD000)
+0:209  0:002            label : Install macOS Ventura
+0:209  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x2,0x4)\Pci(0x0,0x0)\NVMe(0x1,7A-87-C5-3C-01-75-A0-00)
+0:210  0:000          Result of bootcode detection: bootable unknown (legacy)
+0:210  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x2,0x4)\Pci(0x0,0x0)\NVMe(0x1,7A-87-C5-3C-01-75-A0-00)\HD(1,GPT,8BF88A9E-B8B9-45F1-A78F-4F5B1B7B531A,0x800,0x32000)
+0:210  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:211  0:000            label : EFI
+0:211  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x2,0x4)\Pci(0x0,0x0)\NVMe(0x1,7A-87-C5-3C-01-75-A0-00)\HD(2,GPT,4F82B81C-31D3-46B6-BFED-53EB020EB923,0x32800,0x8000)
+0:211  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x2,0x4)\Pci(0x0,0x0)\NVMe(0x1,7A-87-C5-3C-01-75-A0-00)\HD(3,GPT,BE5E407C-FC03-4CB2-AEA7-929B84E69A24,0x3A800,0xC315800)
+0:211  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:211  0:000            label : win
+0:211  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x2,0x4)\Pci(0x0,0x0)\NVMe(0x1,7A-87-C5-3C-01-75-A0-00)\HD(4,GPT,DDD17A37-8F80-4861-A214-EBB08A893EED,0xC350000,0x2F69128F)
+0:211  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:211  0:000            label : data
+0:211  0:000  No AudioIoProtocols, status=Not Found
+0:211  0:000  === [ InitXTheme ] ==============================
+0:211  0:000  use Daylight theme
+0:211  0:000   using embedded theme
+0:219  0:007  sound play end with status=Device Error
+0:219  0:000  Using embedded font
+0:219  0:000  --> InitTheme end: Firmware has 4009356 free pages (805516 in lower 4 GB)
+0:219  0:000  theme inited
+0:219  0:000  Chosen embedded theme
+0:219  0:000  found boot-args in NVRAM:revblock=media debug=0x100 keepsyms=1, size=38
+0:219  0:000  ...found arg:revblock=media
+0:219  0:000  ...adding arg:revblock=media
+0:219  0:000  ...found arg:debug=0x100
+0:219  0:000  ...adding arg:debug=0x100
+0:219  0:000  ...found arg:keepsyms=1
+0:219  0:000  ...adding arg:keepsyms=1
+0:219  0:000  after NVRAM boot-args=-v revblock=media debug=0x100 keepsyms=1 
+0:219  0:000  === [ Dump SMC keys from NVRAM ] ================
+0:219  0:000  found AppleSMC protocol
+0:221  0:001     fakesmc-key-#KEY-ui32:00 00 00 04 
+0:223  0:002     fakesmc-key-$Adr-ui32:00 00 03 00 
+0:225  0:001     fakesmc-key-$Num-ui8:01 
+0:227  0:001     fakesmc-key-RMde-char:41 
+0:230  0:003  Registered 4 SMC keys
+0:237  0:007  === [ ScanLoader ] ==============================
+0:237  0:000  - [01]: 'CLOVER'
+0:237  0:000        AddLoaderEntry for Volume Name=CLOVER, idx=0
+0:237  0:000        OSVersion= 
+0:237  0:000        IconName=unknown comma=-1 size=7
+0:237  0:000        Full=unknown
+0:237  0:000        Loader entry created for 'PciRoot(0x0)\Pci(0x8,0x1)\Pci(0x0,0x4)\USB(0x0,0x0)\HD(1,GPT,27C0F147-EF1D-458B-9CEE-C3169E9BDF13,0x800,0x64000)\EFI\BOOT\BOOTX64.efi'
+0:237  0:000        Menu entry added at index 0
+0:237  0:000       hiding entry because DiskKind is DISK_KIND_EXTERNAL: \EFI\BOOT\BOOTX64.efi
+0:237  0:000  - [02]: 'Install macOS Ventura'
+0:239  0:002        AddLoaderEntry for Volume Name=Install macOS Ventura, idx=1
+0:241  0:002        OSVersion=13.6.3 
+0:241  0:000        IconName=ventura,mac comma=7 size=11
+0:241  0:000        first=os_ventura
+0:241  0:000        Second=os_mac
+0:241  0:000        IconName=unknown comma=-1 size=7
+0:241  0:000        Full=unknown
+0:241  0:000        Loader entry created for 'PciRoot(0x0)\Pci(0x8,0x1)\Pci(0x0,0x4)\USB(0x0,0x0)\HD(2,GPT,9A7CC0A5-660B-CAE9-3B96-656AC0C9EAD5,0x64800,0x1BDD000)\System\Library\CoreServices\boot.efi'
+0:241  0:000        Menu entry added at index 1
+0:242  0:000  - [04]: 'EFI'
+0:251  0:009        AddLoaderEntry for Volume Name=EFI, idx=2
+0:251  0:000        OSVersion= 
+0:251  0:000        IconName=vista,win comma=5 size=9
+0:251  0:000        first=os_vista
+0:251  0:000        Second=os_win
+0:251  0:000        IconName=unknown comma=-1 size=7
+0:251  0:000        Full=unknown
+0:251  0:000        Loader entry created for 'PciRoot(0x0)\Pci(0x2,0x4)\Pci(0x0,0x0)\NVMe(0x1,7A-87-C5-3C-01-75-A0-00)\HD(1,GPT,8BF88A9E-B8B9-45F1-A78F-4F5B1B7B531A,0x800,0x32000)\EFI\microsoft\Boot\bootmgfw.efi'
+0:251  0:000        Menu entry added at index 2
+0:263  0:011        AddLoaderEntry for Volume Name=EFI, idx=3
+0:263  0:000        OSVersion= 
+0:263  0:000        IconName=unknown comma=-1 size=7
+0:263  0:000        Full=unknown
+0:263  0:000        Loader entry created for 'PciRoot(0x0)\Pci(0x2,0x4)\Pci(0x0,0x0)\NVMe(0x1,7A-87-C5-3C-01-75-A0-00)\HD(1,GPT,8BF88A9E-B8B9-45F1-A78F-4F5B1B7B531A,0x800,0x32000)\EFI\BOOT\BOOTX64.efi'
+0:263  0:000        Menu entry added at index 3
+0:263  0:000       hiding entry because DiskKind is DISK_KIND_INTERNAL: \EFI\BOOT\BOOTX64.efi
+0:263  0:000  - [06]: 'win'
+0:263  0:000  - [07]: 'data'
+0:263  0:000  Entries list before ordering
+0:263  0:000      Entry 0 : Boot UEFI external from CLOVER (hidden)
+0:263  0:000      Entry 1 : Boot macOS Install from Install macOS Ventura
+0:263  0:000      Entry 2 : Boot Microsoft EFI Boot from EFI
+0:263  0:000      Entry 3 : Boot UEFI internal from EFI (hidden)
+0:263  0:000  Entries list after ordering
+0:263  0:000    Entry 0 : Boot UEFI external from CLOVER (hidden)
+0:263  0:000    Entry 1 : Boot macOS Install from Install macOS Ventura
+0:263  0:000    Entry 2 : Boot Microsoft EFI Boot from EFI
+0:263  0:000    Entry 3 : Boot UEFI internal from EFI (hidden)
+0:263  0:000  Scanning legacy ...
+0:263  0:000      AddLegacyEntry:
+0:263  0:000        FullTitle=
+0:263  0:000        LoaderTitle=
+0:263  0:000        Volume->LegacyOS->Name=Windows
+0:263  0:000        Entry->Title=Boot Windows from CLOVER
+0:263  0:000        IconName=vista,win comma=5 size=9
+0:263  0:000        first=os_vista
+0:263  0:000        Second=os_win
+0:263  0:000        IconName=unknown comma=-1 size=7
+0:263  0:000        Full=unknown
+0:263  0:000      AddLegacyEntry:
+0:263  0:000        FullTitle=
+0:263  0:000        LoaderTitle=
+0:263  0:000        Volume->LegacyOS->Name=Windows
+0:263  0:000        Entry->Title=Boot Windows from EFI
+0:263  0:000        IconName=vista,win comma=5 size=9
+0:263  0:000        first=os_vista
+0:263  0:000        Second=os_win
+0:263  0:000        IconName=unknown comma=-1 size=7
+0:263  0:000        Full=unknown
+0:263  0:000      AddLegacyEntry:
+0:263  0:000        FullTitle=
+0:263  0:000        LoaderTitle=
+0:263  0:000        Volume->LegacyOS->Name=Windows
+0:263  0:000        Entry->Title=Boot Windows from win
+0:263  0:000        IconName=vista,win comma=5 size=9
+0:263  0:000        first=os_vista
+0:263  0:000        Second=os_win
+0:263  0:000        IconName=unknown comma=-1 size=7
+0:263  0:000        Full=unknown
+0:263  0:000      AddLegacyEntry:
+0:263  0:000        FullTitle=
+0:263  0:000        LoaderTitle=
+0:263  0:000        Volume->LegacyOS->Name=Windows
+0:263  0:000        Entry->Title=Boot Windows from data
+0:263  0:000        IconName=vista,win comma=5 size=9
+0:263  0:000        first=os_vista
+0:263  0:000        Second=os_win
+0:263  0:000        IconName=unknown comma=-1 size=7
+0:263  0:000        Full=unknown
+0:263  0:000  === [ AddCustomTool ] ===========================
+0:263  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+0:263  0:000  Checking EFI partition Volume 4 for Clover
+0:264  0:000   Found Clover
+0:264  0:000  === [ GetEfiBootDeviceFromNvram ] ===============
+0:264  0:000   - [!] efi-boot-device-data not found
+0:264  0:000  Default boot entry not found
+0:264  0:000  BannerPlace at Clear Screen [896,224]
+0:272  0:007  --> Before RunMainMenu: Firmware has 4008837 free pages (804997 in lower 4 GB)
+0:287  0:014  GUI ready
+2347:495  2347:208  applied gSettings.ACPI.FixHeaders=Y
