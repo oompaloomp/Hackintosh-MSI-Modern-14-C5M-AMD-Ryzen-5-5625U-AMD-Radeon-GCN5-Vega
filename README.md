@@ -19,3 +19,7 @@ Mother: MSI Modern 14 C5M
 Processor: AMD Ryzen 5 5625U
 
 Video: AMD Radeon GCN5 (Vega)
+
+**UPD 17.08.2024**
+
+2. Reached disk utility.
