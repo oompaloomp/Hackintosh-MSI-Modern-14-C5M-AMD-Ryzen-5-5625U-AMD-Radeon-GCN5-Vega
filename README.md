@@ -1,4 +1,4 @@
-**Установка Hackintosh**
+**Начал пытытаться ставить Hackintosh на ноут:**
 
 Мать: MSI Modern 14 C5M
 
@@ -8,7 +8,7 @@
 
 **----------------------------**
 
-**Hackintosh installation**
+**Started trying to put Hackintosh on the note:**
 
 Mother: MSI Modern 14 C5M
 
